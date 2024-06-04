@@ -1,0 +1,14 @@
+# 应用服务 WEB 访问端口
+spring:
+  application:
+    name: usercenter
+
+  # DateSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-cn-2wb3rkgu20002nno.rwlb.cn-chengdu.rds.aliyuncs.com:3306/user-backed
+    username: root
+    password: 794268huxinTT
+
+   session:
+      timeout: 86400
